@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Kubernetes Resources"
-date:   2016-10-24 10:01:58 +0000
+date:   2016-11-03 10:01:58 +0000
 categories: kubernetes
 tags: Kubernetes, Docker
 ---
