@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Pitfalls to avoid on your DevOps journey"
-date:   2016-03-11 12:00:00 +0000
+date:   2016-03-22 12:00:00 +0000
 categories: blogs devops journey pitfalls
 tags: devops pitfalls
 ---
-<img src="{{ site.url }}/img/devops_pitfalls.jpg" alt="Blog Image" style="margin-left: 100px;margin-right: 100px;"/>
+<img src="{{ site.url }}/img/posts/devops-pitfalls/devops_pitfalls.jpg" alt="Blog Image" style="margin-left: 100px;margin-right: 100px;"/>
 
 Working at a number of clients across the banking, investment and media industries has given me the insights and experience to identify a number of bad practices to avoid when adopting DevOps
 
