@@ -26,10 +26,6 @@ primarylinks:
 
 #Any buzzword skills you want to include
 skills:
- - Java
- - Spring
- - REST
- - JPA
  - Ruby
  - Python
  - Bash
@@ -46,6 +42,10 @@ skills:
  - Terraform
  - Vault
  - Consul
+ - Java
+ - Spring
+ - REST
+ - JPA
  - Technical Architecture
  - Enterprise Architecture
 
