@@ -5,7 +5,7 @@ date:   2016-10-18 10:01:58 +0000
 categories: 12-factor-app java springboot
 tags: 12-factor-app java springboot microservices application architecture
 ---
-![Blog Image]({{ site.url }}/assets/12-factor-app_blog.png)
+![Blog Image]({{ site.url }}/img/12-factor-app_blog.png)
 
 I've spent most of my career writing and architecting large bespoke Java implementation for Banks.  This used to involve a large tech stack involving application servers (IBM WebSphere), databases (Oracle DB), caching (Coherence) and interoperability (IBM Message Queue and Message Broker)……Eugh!!   That's the way it was for a lot of enterprises, and it still is now.  However, the last few years I have been concentrating on Deployment Automation, Configuration Management and talking about all things DevOps.  As part of my work, I often talk to customers about how they can re-design and re-architect their solutions to adapt to this new world of IT.  Designing systems with service oriented architectures or micro-service architectures are key, but also too are designing the ability to automate the deployment and monitor the health of the system.  These are all properties that are encompassed in the [twelve-factor app](https://12factor.net/) methodology.
  
@@ -375,7 +375,7 @@ end script
 
 To conclude, this application uses many practices of the twelve-factor app methodology to make it simple to build, deploy and monitor using a number of interesting technologies.  The source code is stored in Git, the Java application is built using Maven and gets its secrets from Vault and the resulting application is uploaded to an S3 repository.  The execution environment uses Consul to get the application URL, which is then downloaded from the S3 repository and executed using Upstart.
 
-![12 Factor Architecture]({{ site.url }}/assets/12-factor-app-arch.png)
+![12 Factor Architecture]({{ site.url }}/img/12-factor-app-arch.png)
 
 In the next instalment of this blog I will explain how I have used Packer and Terraform to build out the runtime environments, which include a Consul and Vault server cluster and the client servers which host the application.
  

@@ -5,15 +5,15 @@ date:   2016-10-24 10:01:58 +0000
 categories: devops security
 tags: DevOps, Security, CyberCrime, DevSecOps, DDoS, Ransomware
 ---
-![Blog Image]({{ site.url }}/assets/The-Criminal-The-Extortionist-and-The-Dirty-Cow_blog.png)
+![Blog Image]({{ site.url }}/img/The-Criminal-The-Extortionist-and-The-Dirty-Cow_blog.png)
 
 With DevOps and Cloud computing practices becoming more and more commonplace in the IT industry, companies are starting to benefit from managing bigger infrastructure footprints and releasing software faster. IT organisations have to ensure their infrastructure and applications are secured and impenetrable from internal or external cyber-attack. How do you stay up to date with the latest practices to be more efficient in your work without compromising on security by taking short cuts? This two-part blog outlines what the biggest threats are and how DevOps practices can complement the security position of your organisation.
 
-![Blog Image DDoS]({{ site.url }}/assets/BBC_Contino_DDoS_Screenshot.png)
+![Blog Image DDoS]({{ site.url }}/img/BBC_Contino_DDoS_Screenshot.png)
 
 As I write this blog, the top three stories in the technology section of the BBC news website are stories about DDoS, zero day bugs in Linux and ransomware attacks. On Friday 21st Oct, Dyn servers were targeted in an attack where huge amounts of data were directed to them making their services inoperable. Dyn acts as a directory service for huge numbers of firms, it’s like an giant address book for the internet. The result meant that customers could no longer access sites like Twitter, Spotify, Reddit, Soundcloud and PayPal. In another article, we are told about the “Dirty Cow” bug which has been present in many versions of Linux for decades. While the final story explains how ransomware is the principal weapon in attackers' armoury. Ransomware software that first takes over your network, then encrypts all your files before demanding a ransom - usually in Bitcoin - to unlock them.
 
-![Blog Image ransomware]({{ site.url }}/assets/The Criminal, The Extortionist and The Dirty Cow_ransom.png)
+![Blog Image ransomware]({{ site.url }}/img/The Criminal, The Extortionist and The Dirty Cow_ransom.png)
 
 Cyber criminals are a very real threat and some attacks have had catastrophic consequences for companies in the past. There is a lot of money to be made from cybercrime. Ransomware attacks spiked to $200M in the first quarter of 2016 compared to $25M in the whole of 2015. Accessing customer data is no longer just about the banking details, criminals are also using customer data and weaponising it for extortion purposes. Highly proficient, technical mercenaries are selling themselves as a Criminal-As-A-Service to the highest bidder in order to help implement and execute the cyber-attacks. These attacks are no longer targeted at the large companies, smaller companies are also at risk and have just as valuable data that can be used for extortion or ransom.
 
@@ -61,7 +61,7 @@ One of the patterns that has emerged from DevOps is immutable infrastructure. **
 
 These best practices and tooling can be used in conjunction with [Vault](https://www.vaultproject.io/) (to manage secrets, keys, passwords and certificates), can provide a very flexible and secure provisioning process. This code can be executed in the release pipeline so the infrastructure can be brought online on demand or at scheduled times. Within this pipeline you can continually validate the compliance of the node by using tools such as [InSpec](http://inspec.io/), a tool which automates the continuous testing and compliance auditing of your infrastructure. When a verification check fails then the infrastructure will not progress in the pipeline. Here is an example architecture using InSpec in the pipeline:
 
-![Blog Image DDoS]({{ site.url }}/assets/devsecops_inspec.png)
+![Blog Image DDoS]({{ site.url }}/img/devsecops_inspec.png)
 
 If you are managing Docker containers then I recommend reading a blog from Ben Wootton one of our blogs [Docker Security: What You Need to Know](http://blog.contino.io/blog/docker-security-what-you-need-to-know). The Dirty COW vulnerability also affects containers, read about how it can be fixed here [Dirty COW - (CVE-2016-5195) - Docker Container Escape](https://blog.paranoidsoftware.com/dirty-cow-cve-2016-5195-docker-container-escape/).
 
