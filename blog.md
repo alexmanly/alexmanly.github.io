@@ -16,5 +16,6 @@ layout: default
                     {% endfor %}
                 </ul>
             </div>
+            <p class="rss-subscribe">subscribe <a href="{{ site.url }}/feed.xml">via RSS</a></p>
         </div>
     </div>
