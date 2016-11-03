@@ -1,7 +1,15 @@
 # Site settings
 title: Alex Manly
+email: alex.manly@contino.io
 twitter_username: apmanly
-name: Alex Manly
+github_username:  alexmanly
+timezone: Europe/London
+encoding: utf-8
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
 
 # Build settings
 markdown: kramdown
