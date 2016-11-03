@@ -10,11 +10,11 @@ layout: default
         </div>
         <div class="content-rounded-panel">
             <div id="blogArticles">
-                {% for post in site.posts %}
-                  {% assign loopindex = forloop.index %}
-                    {{loopindex}} - <a target='_blank' href='{{ post.url }}'>{{ post.title }}, {{ post.date | date: '%B %Y'}}</a><br><br>
-                {% endfor %}
+                <ul style="list-style-type: none;">
+                    {% for post in site.posts %}
+                        <li ><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+                    {% endfor %}
+                </ul>
             </div>
-            <br>
         </div>
     </div>
