@@ -2,7 +2,7 @@
 layout: post
 title:  "Building a Twelve Factor App"
 date:   2016-10-18 10:01:58 +0000
-categories: 12-factor-app java springboot
+categories: blogs devops 12-factor-app java
 tags: 12-factor-app java springboot microservices application architecture
 ---
 <img src="{{ site.url }}/img/12-factor-app_blog.png" alt="Blog Image" style="margin-left: 100px;margin-right: 100px;"/>

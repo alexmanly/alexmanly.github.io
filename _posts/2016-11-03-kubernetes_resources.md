@@ -2,7 +2,7 @@
 layout: post
 title:  "Kubernetes Resources"
 date:   2016-11-03 10:01:58 +0000
-categories: kubernetes
+categories: blog devlops containers kubernetes
 tags: Kubernetes, Docker
 ---
 ## General Overview

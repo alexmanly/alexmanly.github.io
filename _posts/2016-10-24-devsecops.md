@@ -2,7 +2,7 @@
 layout: post
 title:  "The Criminal, the Extortionist and the Dirty Cow"
 date:   2016-10-24 10:01:58 +0000
-categories: devops security
+categories: blog devops security
 tags: DevOps, Security, CyberCrime, DevSecOps, DDoS, Ransomware
 ---
 <img src="{{ site.url }}/img/The-Criminal-The-Extortionist-and-The-Dirty-Cow_blog.png" alt="Blog Title Image" style="width: 500px; margin-left: 200px;margin-right: 200px;"/>
