@@ -18,7 +18,7 @@ markdown: kramdown
 #Links that will appear in the navbar
 primarylinks:
  - title: Blog
-   url: http://alexmanly.github.io/blog
+   url: http://alexmanly.github.io/blog.html
  - title: GitHub
    url: https://github.com/alexmanly
  - title: StackOverflow
