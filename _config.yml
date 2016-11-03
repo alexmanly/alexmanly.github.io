@@ -102,7 +102,7 @@ videos:
 #Stackoverflow flair is optional
 stackoverflow:
    profileurl: http://stackoverflow.com/users/6253266/alex
-   flairimageurl: http://stackoverflow.com/users/flair/6253266.png?theme=clean
+   flairimageurl: http://stackoverflow.com/users/flair/6253266.png?theme=dark
 
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
