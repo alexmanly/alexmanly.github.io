@@ -6,7 +6,10 @@
 		<div class="content-rounded-panel">
 			<div id="blogArticles">
 				{% for post in site.posts %}
-					<a target='_blank' href='{{ post.url }}'>{{ post.title }}</a><br><br>
+				  {% assign loopindex = forloop.index %}
+				  {% if loopindex < 6  %}
+						<a target='_blank' href='{{ post.url }}'>{{ post.title }}</a><br><br>
+					{% endif %}
 				{% endfor %}
 			</div>
 			<br>

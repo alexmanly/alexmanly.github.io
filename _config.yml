@@ -17,6 +17,8 @@ markdown: kramdown
 #User specific content
 #Links that will appear in the navbar
 primarylinks:
+ - title: Blog
+   url: http://alexmanly.github.io/blog
  - title: GitHub
    url: https://github.com/alexmanly
  - title: StackOverflow
@@ -26,6 +28,7 @@ primarylinks:
 
 #Any buzzword skills you want to include
 skills:
+ - DevOps
  - Chef
  - Ansible
  - Puppet
