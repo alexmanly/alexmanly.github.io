@@ -5,8 +5,8 @@ date:   2016-11-03 10:01:58 +0000
 categories: kubernetes
 tags: Kubernetes, Docker
 ---
-
 ## General Overview
+
 Here are my general suggestions for kubernetes:
 
 1. Start out playing on [GKE](https://cloud.google.com/container-engine/)

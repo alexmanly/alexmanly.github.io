@@ -1,0 +1,16 @@
+{% if site.posts %}
+	<div id="blogBubble" class="rounded_panel txt_lightgrey">
+		<div class="top-rounded-panel grey-bg">
+			<h1>Recent blog posts</h1>
+		</div>
+		<div class="content-rounded-panel">
+			<div id="blogArticles">
+				{% for post in site.posts %}
+					<a target='_blank' href='{{ post.url }}'>{{ post.title }}</a><br><br>
+				{% endfor %}
+			</div>
+			<br>
+		</div>
+	</div>
+{% endif %}
+

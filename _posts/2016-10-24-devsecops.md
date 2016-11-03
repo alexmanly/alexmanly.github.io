@@ -5,7 +5,6 @@ date:   2016-10-24 10:01:58 +0000
 categories: devops security
 tags: DevOps, Security, CyberCrime, DevSecOps, DDoS, Ransomware
 ---
-
 ![Blog Image]({{ site.url }}/assets/The-Criminal-The-Extortionist-and-The-Dirty-Cow_blog.png)
 
 With DevOps and Cloud computing practices becoming more and more commonplace in the IT industry, companies are starting to benefit from managing bigger infrastructure footprints and releasing software faster. IT organisations have to ensure their infrastructure and applications are secured and impenetrable from internal or external cyber-attack. How do you stay up to date with the latest practices to be more efficient in your work without compromising on security by taking short cuts? This two-part blog outlines what the biggest threats are and how DevOps practices can complement the security position of your organisation.

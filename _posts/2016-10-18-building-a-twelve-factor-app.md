@@ -5,7 +5,6 @@ date:   2016-10-18 10:01:58 +0000
 categories: 12-factor-app java springboot
 tags: 12-factor-app java springboot microservices application architecture
 ---
-
 ![Blog Image]({{ site.url }}/assets/12-factor-app_blog.png)
 
 I've spent most of my career writing and architecting large bespoke Java implementation for Banks.  This used to involve a large tech stack involving application servers (IBM WebSphere), databases (Oracle DB), caching (Coherence) and interoperability (IBM Message Queue and Message Broker)……Eugh!!   That's the way it was for a lot of enterprises, and it still is now.  However, the last few years I have been concentrating on Deployment Automation, Configuration Management and talking about all things DevOps.  As part of my work, I often talk to customers about how they can re-design and re-architect their solutions to adapt to this new world of IT.  Designing systems with service oriented architectures or micro-service architectures are key, but also too are designing the ability to automate the deployment and monitor the health of the system.  These are all properties that are encompassed in the [twelve-factor app](https://12factor.net/) methodology.

@@ -1,46 +1,25 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: Alex Manly
-email: alex.manly@contino.io
-description: > # this means to ignore newlines until "baseurl:"
-  I have been designing a writing enterpise application for 20 years. More
-  recently I have specialised in automation, cloud and configuration management 
-  and CI/CD.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: apmanly
-github_username:  alexmanly
-timezone: Europe/London
-encoding: utf-8
+name: Alex Manly
 
 # Build settings
 markdown: kramdown
-theme: minima
-gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
+
+#User specific content
+#Links that will appear in the navbar
+primarylinks:
+ - title: GitHub
+   url: https://github.com/alexmanly
+ - title: StackOverflow
+   url: http://stackoverflow.com/users/6253266/alex
+ - title: LinkedIn
+   url: https://www.linkedin.com/in/amanly
 
 #Any buzzword skills you want to include
 skills:
  - Java
- - Groovy
- - Spring MVC
- - Spring Boot
+ - Spring
  - REST
  - JPA
  - Ruby
@@ -59,14 +38,35 @@ skills:
  - Terraform
  - Vault
  - Consul
+ - Technical Architecture
+ - Enterprise Architecture
 
 #Work experience is required
 roles:
  - title: Principle DevOps Consultant
-   start: 20166
+   start: 2016
    end: Ongoing
-   employer: Contino
-   description: Contino help Enterprise Organisations transform their software delivery engines. <br>We do this by delivering on key strategic technology initiatives whilst also upskilling our clients workforce and supporting the development of a more vibrant engineering culture.  Our key focus is on Cloud, Containers, Configuration Management, Automation and CI/CD.
+   employer: Contino (UK)
+   company_url: http://www.contino.io
+   description: Contino help Enterprise Organisations transform their software delivery engines. Alex is an account principle who delivered on strategic technology initiatives within key accounts.  Contino's key focus is with Cloud, Containers, Configuration Management, Automation and CI/CD.
+ - title: Senior Solutions Architect
+   start: 2014
+   end: 2015
+   employer: Chef (EMEA)
+   company_url: http://www.chef.io
+   description: Chef is a configuration management tool.  I worked with customers across Europe and Africa to help customers become successful with Chef.  I also talked at conferences, meet ups and seminars about Infrastructure as Code and DevOps.
+ - title: VP Product Development
+   start: 2014
+   end: 2010
+   employer: MidVision
+   company_url: http://www.midvision.com
+   description: I was one of the founder members of the MidVision team.  As well as designing and developing the RapidDeploy application, I put into practice the build, development and testing process and tools that implement the continuous integration and delivery of the product.  I recruited, managed and mentored the development and technical services teams. 
+ - title: Senior Management Consultant
+   start: 2010
+   end: 2004
+   employer: IBM Global Business Services (UK)
+   company_url: https://www-935.ibm.com/services/uk/gbs/strategy/index2.html
+   description: I had many roles whilst working at IBM including; Enterprise Architect, Lead Solution Architect, Application Architect and Development Manager.  I worked with a variety of customers in Banking, Insurance, Media and Telecommunications sectors. 
 
 #Education is required
 education:
@@ -74,7 +74,6 @@ education:
    date: 1997
    subject: Information Systema and Computer Science
    school: University of Leeds
-
 
 #List of interesting Github repo/projects to include - optional
 github:
@@ -87,4 +86,19 @@ github:
 stackoverflow:
    profileurl: http://stackoverflow.com/users/6253266/alex
    flairimageurl: http://stackoverflow.com/users/flair/6253266.png
+
+
+#An additional info freetext section is optional at the bottom of the page - can be text or HTML
+additionalinfo: |
+   Alex is currently a Principal DevOps Consultant for Contino.  He works closely with customers to help define, scope and provide a technical authority throughout the life cycle of DevOps based projects.  He collaborates closely with, and navigates, different teams of a project to ensure customers receive high levels of support to achieve success.  Part of his role is to help customers be successful in selecting and implementing DevOps tooling.  His customers have included, HSBC, Barclays, Tesco and Allianz.  Alex also spends part of his time coaching the Contino team and also fielding events such as conferences and seminars.
+   <br><br>
+   Before Contino, Alex was currently a Senior Solutions Architect for Chef traversing between sales and product, supporting customers in the EMEA region.  He was instrumental in help to select the new Chef Compliance tooling (InSpec), which helps to validate infrastructure state. Part of his role was to help customers be successful in selecting Chef, whilst the other part of his time was to evangelise the benefits of configuration management and Chef at community events.
+   <br><br>
+   Previous to working at Chef, Alex was the VP of Product Development at MidVision and helped build the business to become one of UKs leading enterprise deployment automation specialists in the middleware and database software stack.  Alex was instrumental in designing and building the RapidDeploy product as a plugin based architecture framework for deployment automation within continuous delivery. 
+   <br><br>
+   Prior to MidVision, Alex was a senior consultant in IBM's Global Business Services financial services practice.  He worked at customers such as Deutsche Bank and Lloyds Banking Group in roles such as Enterprise Architect, Application Architect and Security Architect roles.  At IBM Alex gained in-depth business & systems integration knowledge in complex financial, telecommunications sectors particularly in enterprise wide programmes transforming legacy based systems in to service based architectures using SOA and EAI.
+   <br><br>
+   He has extensive experience in Architecture, IT Strategy and Project Management. He is an experienced architect with the expertise to work with clients to ensure that their enterprise systems best support their business requirements.  Along with design and architecture, Alex has developed many systems for clients and also worked with operations to unsure the systems are released successfully.  
+   <br><br>
+   Alex is confident, sociable individual who is comfortable leading and managing globally distributed teams of people. He is used to working in both technical and business facing roles and has experience with mentoring and training team members and customer.  He has a sound educational background and a unique combination of strong technical, business and communication skills are his valuable assets.  Alex has presented at conferences in Europe and the US on the subject of how to implement continuous delivery in the enterprise. 
 
