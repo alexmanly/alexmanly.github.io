@@ -41,8 +41,8 @@ These regulations that are enforced are changing all the time. Companies can str
 
 Rather than making security an afterthought, or a bolt-on, it needs to be embedded in every single step of the build, test and release process. To do that you need to plan for it and sell it internally to your organisation to get the funding and the resources to implement it. The best way to do this is to come up with a business case of the costs involved in reacting to and resolving breaches. These costs can become very expensive. Here are some metrics that can be used.
 
-**Recovery costs** - These include costs incurred during problem identification, analysis and resolution, and validation testing, as well as external support costs, regulatory fines and data recovery costs
-**Productivity costs** - These are calculated as duration of outage × total persons affected × average percentage of productivity lost × average employee costs
+**Recovery costs** - These include costs incurred during problem identification, analysis and resolution, and validation testing, as well as external support costs, regulatory fines and data recovery costs<br>
+**Productivity costs** - These are calculated as duration of outage × total persons affected × average percentage of productivity lost × average employee costs<br>
 **Lost revenue** - This is calculated as duration of outage × percentage of unrecoverable business × average revenue per hour
 
 There are other hidden costs that can be factored into the equation, such as reputational damage and brain drain damage, when the IT staff don’t want to be associated with a high profile breach and leave the company after the event.
