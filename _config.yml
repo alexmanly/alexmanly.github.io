@@ -26,13 +26,6 @@ primarylinks:
 
 #Any buzzword skills you want to include
 skills:
- - Ruby
- - Python
- - Bash
- - Powershell
- - Jenkins
- - AWS
- - Azure
  - Chef
  - Ansible
  - Puppet
@@ -42,7 +35,14 @@ skills:
  - Terraform
  - Vault
  - Consul
+ - AWS
+ - Azure
  - Java
+ - Ruby
+ - Python
+ - Bash
+ - Powershell
+ - Jenkins
  - Spring
  - REST
  - JPA
