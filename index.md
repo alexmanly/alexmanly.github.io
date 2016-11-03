@@ -12,6 +12,7 @@ layout: default
         {% include section_workexperience.html %}
         {% include section_education.html %}
         {% include section_github.html %}
+        {% include section_videos.html %}
         {% include section_additionalinfo.html %}
     </div>
     <div class="col-md-3">

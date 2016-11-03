@@ -93,6 +93,11 @@ github:
  - alexmanly/chef-oracle-db
  - alexmanly/chef-websphere
 
+videos:
+ - https://www.youtube.com/embed/TwhzXusDwwg
+ - https://www.youtube.com/embed/jauXuwIfgbs
+ - https://www.youtube.com/embed/p6FaXItCGhQ
+
 #Stackoverflow flair is optional
 stackoverflow:
    profileurl: http://stackoverflow.com/users/6253266/alex
