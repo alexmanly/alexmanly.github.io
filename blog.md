@@ -6,7 +6,7 @@ layout: default
 ---
 <div id="blogBubble" class="rounded_panel txt_lightgrey">
         <div class="top-rounded-panel grey-bg">
-            <h1>Blog posts</h1>
+            <h1><a href="{{ site.url }}/feed.xml"><img src="{{ site.url }}/img/feed-icon-28x28.png" alt="via RSS"></a>&nbsp;Blog posts</h1>
         </div>
         <div class="content-rounded-panel">
             <div id="blogArticles">
@@ -16,6 +16,5 @@ layout: default
                     {% endfor %}
                 </ul>
             </div>
-            <p class="rss-subscribe">subscribe <a href="{{ site.url }}/feed.xml">via RSS</a></p>
         </div>
     </div>
